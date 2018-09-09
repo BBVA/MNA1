@@ -1,4 +1,3 @@
-# Movimientos laterales
 # Lateral Movements
 
 
