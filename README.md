@@ -104,6 +104,7 @@ The dendrogram resulting from the clustering at a normal time is shown below.
 <div align="center" >
     <img width="70%"  src="img/dendrogram_normal.png"/>
 </div>
+
 #### Abnormal behaviour
 
 However, at the moment when the user's activity peak occurs, 
