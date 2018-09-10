@@ -40,7 +40,7 @@ The following events are collected: 4634, 4729, 4728, 4724, 4727,
 ## Data sources
 
 The data is collected from a query to InfluxDB, which returns a JSON.
-This JSON is transformed to a Pandas DataFrame in order to analyze it in with more detail.o con mayor detalle.
+This JSON is transformed to a Pandas DataFrame in order to analyze it in with more detail
 
 
 ## User Behaviour Analytics
@@ -55,7 +55,7 @@ applying algorithms and statistical analysis to detect abnormal patterns.
 To analyze the users behavior on Windows computers, events are grouped per
  user and the number of events that occur in three-hour ranges.When one
  proceeds to visualize them, it is observed that there are two clear patterns.
-  There are 4 users with much greater activity than the rest.
+  There are 4 users with more activity than the rest.
 
 
 <div align="center" >
@@ -76,7 +76,7 @@ reach the most active users.
 
 To determine the user's normal behavior, an algorithm must be used that allows 
 them to be grouped according to their behavior in an unsupervised way. 
-In this case we have chosen to use a hierarchical clustering. It labels 
+In this case we have chosen to use a hierarchical clustering. It achieves to label 
 the most active users and the least active users in a different cluster.
 
 Specifically, an agglomerative type clustering is used, that is, 
@@ -95,8 +95,8 @@ It could be said that a user should always belong to the same cluster over time
 and that if this changed, it could be due to an anomaly.
 
 It is verified that, if the clustering algorithm is applied in ranges of three hours,
- there is one more user that is grouped in the cluster of the most active users,
- probably because the peak decreases the Euclidean distance that separates the users.
+ there is one more user that is grouped in the cluster of the most active users, 
+ because the peak decreases the Euclidean distance that separates the users.
  
 #### Normal behaviour
 
@@ -110,7 +110,7 @@ The dendrogram resulting from the clustering at a normal time is shown below.
 However, at the moment when the user's activity peak occurs, 
 the dendrogram now includes him in the most active user group. 
 This can be seen in the following graph, in which there are four 
-users in the cluster of users with the highest activity, with 5 users.
+users in the cluster of users with the highest activity, with now 5 users.
 
 <div align="center" >
     <img width="70%"  src="img/dendrogram_anomalous.png"/>
